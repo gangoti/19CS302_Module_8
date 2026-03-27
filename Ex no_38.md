@@ -1,22 +1,53 @@
-# # Task
+## EX NO 8C : HACKERRANK PROBLEM 3
+## AIM:
+To write a program to print the sum and difference of the given two integers .
 
-# # Given a positive integer denoting , do the following:
+## ALGORITHM:
+Start. Define a variables. Write a program to print the sum and difference of the integers.. Read the value using scanf. Ask the user to make an input. Print out the answer. End.
 
-# If  41<=n <=49 print the lowercase English word corresponding to the number (e.g., forty one for 41 , forty two for 42 etc.).
-If n>49 print Greater than 49.
-## Input Format
+## PROGRAM:
+```
+#include <stdio.h>
 
-The first line contains a single integer, .
+int main() {
 
-## Constraints
+int a, b;
 
-## Output Format
+int sum, difference;
 
-If  41<=n <=49 print the lowercase English word corresponding to the number (e.g., forty one for 4 , forty two for 42 etc.).
-If n>49 print Greater than 49.
-## Sample Input
+// Input two numbers
 
-41
-## Sample Output
+printf("Enter two
 
-forty one
+integers: ");
+
+scanf("%d %d", &a,
+
+&b);
+
+// Calculate sum and
+
+difference
+
+sum = a + b;
+
+difference = a - b;
+
+// Print the results
+
+printf("Sum =
+
+%d \n", sum); printf("Difference =
+
+%d\n", difference);
+
+return 0;
+
+}
+```
+
+## OUTPUT
+<img width="338" height="147" alt="image" src="https://github.com/user-attachments/assets/83598da3-5f85-44af-8874-abdceee67425" />
+
+## RESULT:
+Thus, the program is executed and verified successfully.
